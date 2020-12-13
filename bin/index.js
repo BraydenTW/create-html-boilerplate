@@ -1,20 +1,13 @@
 #!/usr/bin/env node
+const { program } = require('commander');
+const { main } = require('../lib/actions.js');
 
-const { Command } = require("commander");
+program.version(require('../package.json').version, '-v|--version');
 
-const program = new Command();
-
-const fs = require("fs-extra");
-
-const commandPackage = require("../package.json");
-
-program
-  .version(commandPackage.version, "-v|--version")
-  .arguments("[projectPath]")
-  .action((projectPath) => {
-    fs.copy("./template/", projectPath)
-      .then(() => console.log("Files copied successfully! ✨"))
-      .catch((err) => console.error(err));
-  });
+program.arguments('[projectName]').action((projectName) =>
+  main(projectName, {
+    template: program.template,
+  })
+);
 
 program.parse(process.argv);
