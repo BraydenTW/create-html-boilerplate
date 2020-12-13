@@ -1,0 +1,42 @@
+{
+  "name": "create-html-boilerplate",
+  "version": "0.1.0",
+  "description": "Generate a vanilla HTML/CSS boilerplate in a flash! ⚡",
+  "main": "bin/index.js",
+  "bin": {
+    "create-html-boilerplate": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/braydentw/create-html-boilerplate.git"
+  },
+  "bugs": "https://github.com/braydentw/create-html-boilerplate/issues",
+  "keywords": [
+    "html",
+    "css",
+    "vanilla",
+    "boilerplate",
+    "cli"
+  ],
+  "author": "Brayden W <brayden45.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@braydentw"
+  }
+}
