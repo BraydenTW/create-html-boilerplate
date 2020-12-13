@@ -37,6 +37,6 @@
     "prettier": "^2.1.2"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@braydentw"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
