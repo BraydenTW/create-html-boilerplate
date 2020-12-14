@@ -1,4 +1,8 @@
-![Banner](https://socialify.git.ci/braydentw/create-html-boilerplate/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
+<!--![Banner](https://socialify.git.ci/braydentw/create-html-boilerplate/image?description=1&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)-->
+
+# Create HTML Boilerplate
+
+Generate a vanilla HTML/CSS boilerplate in a flash! ⚡
 
 ![Baby gif](https://media.giphy.com/media/MJGxL8fxrQBfq/giphy.gif)
 
