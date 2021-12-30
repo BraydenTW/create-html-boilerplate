@@ -7,7 +7,7 @@
     "create-html-boilerplate": "bin/index.js"
   },
   "scripts": {
-    "start": "python3.7 server.py",
+    "start": "echo \"App running at: http://localhost:8080/\" && python3.7 server.py",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm publish"
   },
