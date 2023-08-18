@@ -5,3 +5,13 @@
 body {
   min-height: 100vh;
 }
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: rgb(202, 202, 202);
+}
